@@ -1,0 +1,32 @@
+    <!-- TITLE -->
+<section class="main-title">
+    <h1><a href="index.html">R A I D R ✯ M O D S</a></h1>
+</section>
+
+
+
+<!--test-->
+
+
+
+
+    <!-- BANNER -->
+    <div class="hero-image">
+    </div>
+
+
+    <!-- NEWS-->
+    <div class="hero-news-container">
+    <h3 id="news-header">NEWS</h3>
+    <p id="news-paragraph">lorem ipsum algntig slgietoam rmeianetp danger langrri and summer lorem ipsum algntig slgietoam rmeianetp danger langrri and summerlorem ipsum algntig slgietoam rmeianetp danger langrri and summerlorem ipsum algntig slgietoam rmeianetp danger langrri and summer</p>
+    </div>
+
+
+
+    <!-- LOGIN, SIGN UP -->
+<section class="form">
+    <!-- Form -->
+    <input id="username" type="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    </section>
+

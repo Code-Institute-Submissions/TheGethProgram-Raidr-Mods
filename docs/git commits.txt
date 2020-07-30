@@ -1,0 +1,4 @@
+set up git commit in this order:
+
+1) Main Title
+2) Hero-image + Fix title position
