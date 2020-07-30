@@ -13,3 +13,13 @@ body, html {
                 text-align: center;
                 margin-top: 5%;
                 }
+
+                .main-title a {
+                
+                    text-decoration: none;
+                    color: red;
+                }
+
+                .main-title a:hover {
+                    color: silver;
+                }
