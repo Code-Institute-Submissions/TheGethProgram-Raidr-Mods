@@ -24,6 +24,42 @@ body, html {
                     color: silver;
                 }
 
+
+
+
+                /* NAVIGATION */
+                .navbar{
+                    position: relative;
+                    border-bottom: black;
+                    text-align: center;
+                    
+                }
+
+                .nav-content{
+                    text-align:center;
+                    color: silver;
+                    font-family: 'Rye', cursive;
+                    font-size: 30px;
+                    height: 35px;
+                }
+
+
+                a{
+                    text-decoration: none !important;
+                    color: #e1121c;
+                }
+
+
+
+                .nav-content, a:hover{
+                    color: silver;
+                
+                }
+
+
+
+
+
                 .hero-image{
                     background-image: url("../img/RDR_Banner.png");
                     height: 50%;

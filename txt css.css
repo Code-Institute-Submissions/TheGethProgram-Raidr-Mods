@@ -28,6 +28,13 @@ body, html {
 
 
 
+
+
+
+
+
+
+
 .hero-image{
     background-image: url("../img/RDR_Banner.png");
     height: 50%;
@@ -39,12 +46,12 @@ body, html {
 
 
 
+
 .form{
-    background-image: url(/img/RedSteel.jpg);
 
 }
 
-        ::placeholder{
+            ::placeholder{
             color: silver;
             font-family: 'Times New Roman', Times, serif;
         }
@@ -74,20 +81,6 @@ body, html {
         
 
         #password{
-            position: absolute;
-            text-align: center;
-            font-size: 141%;
-            color:silver;
-            background-color: transparent;
-
-
-            border-bottom-left-radius: 50%;
-            border-bottom-right-radius: 50%;
-            border-color: rgb(139, 0, 0);
-
-                top:107.75%;
-                left: 43.5%;
-                width: 14.1%;
             }
 
         #register{
