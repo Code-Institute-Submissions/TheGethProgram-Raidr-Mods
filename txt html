@@ -1,34 +1,70 @@
-    <!-- TITLE -->
-<section class="main-title">
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- HEAD -->
+<head>
+        <title>Raidr Mods</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+        
+</head>
+
+
+
+
+
+<body>
+
+
+
+<!-- Main Title -->
+    <section class="main-title">
     <h1><a href="index.html">R A I D R ✯ M O D S</a></h1>
-</section>
-
-
-
-<!--test-->
+    </section>
 
 
 
 
-    <!-- BANNER -->
+            <!-- NAV BAR -->
+            <section class="navbar">
+                <div class="nav-content">
+                <a href="index.html">Home</a>
+                <a href="#Mods">Mods</a>
+                <a href="##Help">Help</a>
+                </div>
+            </section>
+
+
+
+
+
+        <!-- HERO IMAGE -->
     <div class="hero-image">
-    </div>
 
 
-    <!-- NEWS-->
+
+
+
+        <!-- NEWS -->
     <div class="hero-news-container">
-    <h3 id="news-header">NEWS</h3>
-    <p id="news-paragraph">lorem ipsum algntig slgietoam rmeianetp danger langrri and summer lorem ipsum algntig slgietoam rmeianetp danger langrri and summerlorem ipsum algntig slgietoam rmeianetp danger langrri and summerlorem ipsum algntig slgietoam rmeianetp danger langrri and summer</p>
+        <h3 id="news-header">NEWS</h3>
+        <p id="news-paragraph">50% off lorem ipsum algntig slgietoam rmeianetp danger langrri and summer lorem ipsum algntig slgietoam rmeianetp danger langrri and summerlorem ipsum algntig slgietoam rmeianetp danger langrri and summerlorem ipsum algntig slgietoam rmeianetp danger langrri and summer</p>
+        </div>
     </div>
 
 
 
-    <!-- LOGIN, SIGN UP -->
+
+        <!-- LOGIN, SIGN UP -->
 <section class="form">
     <!-- Form -->
     <input id="username" type="username" placeholder="Username">
     <input id="password" type="password" placeholder="Password">
+    <a href="register.html"><br>Register</a>
     </section>
+
+
 
 
 
@@ -40,10 +76,16 @@
              over quantity.</p>
     </section>
 
-    <!-- VIDEO -->
-    <section class="vid">
-    <video width="650" height="400" controls>
-        <source src="https://tinyurl.com/h4rcnbt" type="video/mp4">
-      Video not supported
-      </video>
-    </section>
+
+
+
+        <!-- VIDEO -->
+        <section class="vid">
+            <video width="650" height="400" controls>
+                <source src="https://tinyurl.com/h4rcnbt" type="video/mp4">
+              Video not supported
+              </video>
+            </section>
+</body>
+
+</html>

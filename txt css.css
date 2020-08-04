@@ -4,9 +4,7 @@ body, html {
 
 }
 
-
-
-            /* main header */
+            /* MAIN HEADER */
             .main-title h1 {
                 color:rgb(255, 000, 000);
                 font-size: 400%;
@@ -15,7 +13,7 @@ body, html {
                 text-align: center;
                 margin-top: 5%;
                 }
-            
+
                 .main-title a {
                 
                     text-decoration: none;
@@ -29,115 +27,91 @@ body, html {
 
 
 
+                /* NAVIGATION */
+                .navbar{
+                    position: relative;
+                    border-bottom: black;
+                    text-align: center;
+                    
+                }
 
 
 
 
 
-
-.hero-image{
-    background-image: url("../img/RDR_Banner.png");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-
-
-
-.form{
-
-}
-
-            ::placeholder{
-            color: silver;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        ::-webkit-input-placeholder{
-            font-family: 'Rye', cursive;
-            color: red;
-
-        }
-
-        #username{
-            position: absolute;
-            text-align: center;
-            font-size: 141%;
-            color: silver;
-            background-color: transparent;
-
-            border-top-left-radius: 50%;
-            border-top-right-radius: 50%;
-            border-color: rgb(139, 0, 0);
-
-                top:105%;
-                left: 43.5%;
-                width: 14.1%;
-
-            }
-        
-
-        #password{
-            }
-
-        #register{
-        position: relative;
-        }
-
-.hero-news-container{
-    position: relative;
-    text-align: center;
-    background-color: rgb(0, 0, 0, 0.2);
-    border-radius: 25%;
-    width:500px;
-    height: -5%;
-    bottom: 600px;
-    left: 5%;
-    }
-
-
-    #news-header{
-        position: relative;
-        color: silver;
-        text-align: center;
-        top: 8px;
-        }
-
-        #news-paragraph{
-            position: relative;
-            color: silver;
-            bottom: 10px;
-            text-align: center;
-            
-            }
+                .nav-content{
+                    text-align:center;
+                    color: silver;
+                    font-family: 'Rye', cursive;
+                    font-size: 30px;
+                    height: 35px;
+                }
 
 
 
 
 
-
-            .intro{
-                color: red;
-                margin-top: 120px;
-                text-align: center;
-                font-family: 'Rye', cursive;
-                font-size: large;
-            }
-
-            .intro p{
-              
-            }
+                a{
+                    text-decoration: none !important;
+                    color: #e1121c;
+                }
 
 
 
 
 
+                .nav-content, a:hover{
+                    color: silver;
+                
+                }
 
 
-            .vid{
-                text-align: center;
-                margin-bottom: 40px;
-            }
+
+
+
+                .hero-image{
+                    background-image: url("../img/RDR_Banner.png");
+                    height: 50%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                }
+
+
+
+
+                .hero-news-container{
+                    margin-left: 60px;
+                    color: #EA9999;
+                    width: 540px;
+                    font-family: 'Rye', cursive;
+                    font-size: large;
+                }
+
+
+
+
+                .form{
+                    position: relative;
+                    text-align: center;
+                  }
+
+
+
+
+                  .intro{
+                    color: red;
+                    margin-top: 120px;
+                    text-align: center;
+                    font-family: 'Rye', cursive;
+                    font-size: large;
+                }
+
+
+
+
+                .vid{
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
