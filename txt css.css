@@ -113,3 +113,31 @@ body, html {
             text-align: center;
             
             }
+
+
+
+
+
+
+            .intro{
+                color: red;
+                margin-top: 120px;
+                text-align: center;
+                font-family: 'Rye', cursive;
+                font-size: large;
+            }
+
+            .intro p{
+              
+            }
+
+
+
+
+
+
+
+            .vid{
+                text-align: center;
+                margin-bottom: 40px;
+            }
