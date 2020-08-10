@@ -139,7 +139,33 @@ body, html {
                     width: 850px;
                     margin: auto;
                     border-radius: 10%;
+                }
 
-                   
 
+
+
+
+                .signup-container h2{
+                    color: silver;
+                    padding-bottom: 6%;
+
+                }
+
+
+
+
+
+
+                #form-input{
+                    color: silver;
+                }
+
+
+
+
+
+
+                ::placeholder{
+                    text-align: center;
+                    color: silver;
                 }
