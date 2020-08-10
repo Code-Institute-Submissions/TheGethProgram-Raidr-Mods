@@ -1,3 +1,5 @@
+/*>>>>>>>>>>>   index.html   <<<<<<<<<<<<*/
+
 body, html {
     background-color:black;
     height:100%;
@@ -148,6 +150,7 @@ body, html {
                 .signup-container h2{
                     color: silver;
                     padding-bottom: 6%;
+                    font-size: 250%;
 
                 }
 
@@ -156,16 +159,68 @@ body, html {
 
 
 
-                #form-input{
+                .form-input{
                     color: silver;
+                    font-size: large;
                 }
 
 
 
 
-
-
-                ::placeholder{
-                    text-align: center;
-                    color: silver;
+                #fname{
+                    width: 300px;
+                    height:40px;
+                    background-color: silver;
                 }
+
+                        #lname{
+                            width: 300px;
+                            height:40px;
+                            background-color: silver;
+                        }
+
+                        #email{
+                            width: 300px;
+                            height:40px;
+                            background-color: silver;
+                        }
+
+                        #password{
+                            width: 300px;
+                            height:40px;
+                            background-color: silver;
+                        }
+
+                        #password2{
+                            width: 300px;
+                            height:40px;
+                            background-color: silver;
+                        }
+
+                        #checkbox-email{
+                            height: 30px;
+                            width: 30px;
+                        }
+
+                        #checkbox-tc{
+                            height: 30px;
+                            width: 30px;
+                        }
+
+                        #Sign-Up{
+                            font-family: 'Rye', cursive;
+                            color: darkred;
+                            width: 20%;
+                            height:5%;
+                            transform: scale(20%);
+                        }
+
+                        #Sign-Up:hover{
+                            color: silver;
+
+                        }
+
+                        ::placeholder{
+                            text-align: center;
+                            text-size-adjust: 100%;
+                            }
