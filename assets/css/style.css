@@ -127,7 +127,7 @@ body, html {
 
 
 
-                .signup-container{
+                .R-signup-container{
                    
                     position: relative;
                     text-align: center;
@@ -147,7 +147,7 @@ body, html {
 
 
 
-                .signup-container h2{
+                .R-signup-container h2{
                     color: silver;
                     padding-bottom: 6%;
                     font-size: 250%;
@@ -159,7 +159,7 @@ body, html {
 
 
 
-                .form-input{
+                .R-form-input{
                     color: silver;
                     font-size: large;
                 }
@@ -167,47 +167,47 @@ body, html {
 
 
 
-                #fname{
+                .fname{
                     width: 300px;
                     height:40px;
                     background-color: silver;
                 }
 
-                        #lname{
+                        .lname{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        #email{
+                        .email{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        #password{
+                        .password{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        #password2{
+                        .password2{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        #checkbox-email{
+                        .checkbox-email{
                             height: 30px;
                             width: 30px;
                         }
 
-                        #checkbox-tc{
+                        .checkbox-tc{
                             height: 30px;
                             width: 30px;
                         }
 
-                        #Sign-Up{
+                        .Sign-Up{
                             font-family: 'Rye', cursive;
                             color: darkred;
                             width: 20%;
@@ -215,7 +215,7 @@ body, html {
                             transform: scale(20%);
                         }
 
-                        #Sign-Up:hover{
+                        .Sign-Up:hover{
                             color: silver;
 
                         }
