@@ -86,10 +86,11 @@ body, html {
 
                 .hero-news-container{
                     margin-left: 60px;
-                    color: #EA9999;
+                    color: white;
                     width: 540px;
                     font-family: 'Rye', cursive;
                     font-size: large;
+                    padding-top: 35px;
                 }
 
 
@@ -151,13 +152,16 @@ body, html {
                     color: silver;
                     padding-bottom: 6%;
                     font-size: 250%;
+                    font-weight: 1000;
 
                 }
 
 
 
 
-
+                .R-form-input{
+                    font-family: 'Rye', cursive;
+                }
 
                 .R-form-input, label{
                     color: silver;
@@ -207,18 +211,19 @@ body, html {
                             width: 30px;
                         }
 
-                        .Sign-Up{
+                        #Sign-Up{
                             font-family: 'Rye', cursive;
                             color: darkred;
                             width: 20%;
                             height:5%;
                             transform: scale(20%);
                         }
-
+                        
                         .Sign-Up:hover{
                             color: silver;
 
                         }
+                        
 
                         ::placeholder{
                             text-align: center;
