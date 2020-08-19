@@ -110,6 +110,7 @@ body, html {
                     text-align: center;
                     font-family: 'Rye', cursive;
                     font-size: large;
+                    padding-bottom: 4%;
                 }
 
 
@@ -229,3 +230,45 @@ body, html {
                             text-align: center;
                             text-size-adjust: 100%;
                             }
+
+
+
+
+
+
+
+
+
+
+/*>>>>>>>>>>>   mods.html   <<<<<<<<<<<<*/
+
+.game-img {
+    position: relative;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.skyrim {
+    background-image: url(../img/skyrim.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+
+}
+
+.skyrim-se {
+    background-image: url(../img/skyrim-se.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.mods-form{
+    text-align: center;
+    padding: 5%;
+}
