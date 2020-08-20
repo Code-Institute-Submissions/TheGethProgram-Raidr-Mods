@@ -4,6 +4,8 @@ Aaron Thompson
 <h1>Raidr Mods</h1>
             <hr>
 
+[Please ignore README.html, txt css.css and txt html, they're for temp use only]
+
     This website is created with the intention of selling modifications (mods)
         to gamers - the target audience for this site. Mods are downloadable modifications for your game that would 
         traditionally be free. (Example: Texture replacement of a character's shirt.)
