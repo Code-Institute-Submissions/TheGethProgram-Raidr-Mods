@@ -1,39 +1,291 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- hero image here -->
+<p>Aaron Thompson</p>
+<h1>Raidr Mods</h1>
+            <hr>
 
-Welcome USER_NAME,
+    <p>This website is created with the intention of selling modifications (mods)
+        to gamers - the target audience for this site. Mods are downloadable modifications for your game that would 
+        traditionally be free. (Example: Texture replacement of a character's shirt.)
+    
+        The goal for this website is to implement a system were mod creators can make
+        a profit, but must conform to a contract that requires a deadline and a bug-free 
+        product. Currently, B2C will not be willing to make a purchase because 
+        selling mods has been frowned upon for a long duration of time. There should be a 
+        video within the Home-Page explaining how this benefits the consumer. <br>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+        Many consumers within the gaming community can be disdainful with
+            regards to paid mods - and the market for paid mods is <br>
+            still relatively fresh. But the market is also lacking in terms of variety and quality.
+            This is where I hope to shift perceptions, <br>
+            and offer a service to consumers that is different and more accomodating to user needs. 
+            My product, my webiste, will give consumers a reason to pay for mods, by offering a service 
+            that aims to always be reliable, consumer-focused and valuable. But is also appeals to modders, the 
+            creators of mods, who scarcely have many means of making profit for their content. Thus, I appeal to
+            both the consumer wanting to purchase a reliable, high-quality mod, and also the creator,
+            who desires to earn something for all their hard work.<br><br> 
+            
+        <br><br><br>
+        
 
-## Gitpod Reminders
+        <strong>Business goals include:</strong></p>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    <ul>
+    <li>B2C - Awareness of benefits</li>
+    <li>Quality over Quantity</li>
+    <li>Creator-Specific UI</li>
+    <li>Site-Exlusive content</li>
+    <li>Content creators</li>
+    </ul>
+    <br>
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    <p><strong>Customer goals include:</strong></p>
+        <ul>
+            <li>Trust in website (contact details, address, video)</li>
+            <li>Clear pricing & Clear listing of games</li>
+            <li>Reassurance that paying is beneficial</li>
+            <li>High-Quality mods for their game</li>
+            <li>Support & Installation Process</li>
+            <li>Clear definition of products</li>
+            <li>Get a good deal/Offer</li>
+            <li>Finding a product</li>
+            <li>Reviews</li>
+            </ul>
+            <br><br>
 
-A blue button should appear to click: *Make Public*,
+    <p><strong>Seller goals include:</strong></p>
+        <ul>
+            <li>Making sales</li>
+            <li>Finding the sellers fees</li>
+        </ul>
+        <br><br>
+        
+<hr><br>
+<h2>UX/UI</h2>
+<br><br>
 
-Another blue button should appear to click: *Open Browser*.
+    
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+    <p><strong>To compete against the competition this site will:</strong></p>
+        <ul>
+            <li>Have fully interactive and well-done features</li>
+            <li>Deliver a simple and intuitive design</li>
+            <li>Make life easier for the consumer</li>
+            <li>Showcase the most popular mods</li>
+        </ul>
+        <br><br>
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+<hr><br>
+<h2>Features</h2>
+<br><br>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+        <!--May add Sign-Up modal-->
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    <h3><strong>Home Page</strong></h3>
+        <p>The homepage is simple.
+            
+            
+                It is paramount for the site's structure and design to be appropriate 
+                to the audience. <br> It is unnecessary to overload my users with information or 
+                superfluous content - consumers come to this site for purchasing a product (<em>a mod</em>) <br>
+                and they would want to buy it quickly and effeciently so that they can get back to gaming.
+                Therefore, I have opted for a linear design, which is <br> simple and easy to understand;
+                suitable for users of all levels. <br>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+            This simple user interface, encourages users to draw their 
+            attention to the promotional video on the homepage, <br> which is there 
+            to reconcile the quarrelsome relationship between
+            consumers and paid mods. <br><br>
+            
+            The promotional offers in front of the hero image fulfills a 
+            similar purpose. <br> 
+            It helps to reinforce the purpose of the 
+            site to the user, and may trigger a positive emotional response 
+            upon seeing an offer, which can encourage a purchase.<br><br>
 
---------
+            The promotional offers' bold text is eye catching but without being too
+            protuding to the user, thus it avoids distracting them from the site's main content.<br>
+            
+            The nav-bar is small but catches the eye as it sits within the 
+            legend of the hero-image. The form <br>includes transparency
+            on a grey box to keep the user from visual overload.<br><br>
 
-Happy coding!
+
+                <strong>The Theme<br></strong>
+                Rye font represents a more outlandish style, which focuses on the “outlaw” theme. This is to subconsciously tell<br> 
+                the viewer that we are not corporate dominators but outlanders.<br><br>
+
+
+                <strong>Main Heading<br></strong>
+                
+                The name 'Raidr Mods' was originally of viking origin, inspired
+                by a fantasy game: The Elder Scrolls Skyrim, which is predominantly viking themed.<br>
+
+                Skyrim has the most popular modding community and subconsciously tells the viewer that we have Skyrim mods without their conscious knowledge.<br><br>
+
+
+                <strong>Navbar<br></strong>
+                The navbar is close to the center of the hero image and its individual nav links are spaced closely together, to emphasize a cleaner aesthetic. This was <br>
+                achieved by keeping the width of the navbar at least half the size of the main header, but also in sacrifice of spacing the navbar links, while also maintaining a large enough size for a navbar.<br><br>
+
+                <strong>Hero-Image<br></strong>
+                I have chosen a Read Dead Redemption 2 image to subconsciously show the viewer that this is a
+                high quality website - analogous to the game, which is a triple A game.
+                This can also <br>
+                 incite a positive emotional response in the viewer, as many gamers would have played this game<br> and found it to be an emotional experience, which could provoke emotion-based purchases, or/and impulse buying.<br>
+                     Most users may make a purchase on their first visit to a wesbite - by invoking an emotional repsonse, 
+                     I hope to incite a similar repsponse and encourage more purchases by implementing good visual desgin.<br><br> 
+                
+                <strong>News<br></strong>
+                The news has padding to keep the aesthetic clean, while also pushing it further into the center <br>
+                for the user to see more clearly.
+                It is in white with no box around it to make it uncluttered, coherent and professional, while compelling the viewer to look and take notice of it. The black represents a link, and is made clear by its contrast to the white.<br><br>
+
+                <strong>Sign In<br></strong>
+                I have used a more standard form to keep a white aesthetic, to promote the use of accounts. My plan is to remove<br> the sign-in form once the user has logged in. The register link is also in-between both username and password to convey the importance of it, by keeping it centred. Sign-In may be improved at a later date, but also may be perfect the way it is.<br><br>
+
+                <strong>Introduction<br></strong>
+                The introduction is lower on the page, trying not to force the user to read it, but also giving them a chance to<br> scroll down and find a video there. As you may be able to tell, the introduction is somewhat teasing you to scroll down and find out if there is any more content.<br><br>
+
+
+        </p>
+        <br><br>
+
+        <h3><strong>Register Page</strong></h3>
+        <p>The register page is simple and straightforward. All focus is 
+            on the form box due to the contrasting background.<br> 
+            All that is required are highlighted, while "Phone Number"
+            has a lower opacity to signify lower importance. <br>The form 
+            border also gives the user more focus on the form. Each input 
+            is silver to reduce eye strain from the page.</p>
+        <br><br>
+
+        <h3><strong>Mod Store Page</strong></h3>
+        <p> The Mod Store Page consists of 3 columns and multiple rows. B2C 
+            will expect a good list of mods to gain inspiration and find mods <br>
+            they never knew existed in order to spike intrigue. Mods will be  
+            sorted from most popular to least to improve UX. The color of the <br>
+            "mod box" is a color that should keep visual overload to a minimum  
+            - this includes the text size and colour; plentiful information  <br>
+            with little sacrifice. Each mod has a price which the seller will 
+            set. An "add to basket" icon will make purchases more seemless. <br>
+        </p>
+        <br><br>
+
+        <h3><strong>Game Page</strong></h3>
+        <p> The "Game Page" is simple and easy to understand. The games are sorted 
+            by popularity. Each game has a smaller scale when the user's cursor 
+            hover's over them, to make visual presentation seem more seemless.
+        </p>
+        <br><br>
+
+        <h3><strong>Accessibility </strong></h3>
+        
+
+    <ul>
+        <li>Main heading</li>
+        <ul><em>
+            <li>Linked to index.html</li>
+            <li>Font: Rye</li>
+            <li>Silver hover</li>
+        </em></ul>
+
+
+        <li>Navbar</li>
+            <ul><em>
+                <li>Home</li>
+                <li>Mods</li>
+                <li>Help</li>
+            </em></ul>
+
+
+        <li>News</li>
+            <ul><em>
+                <li>Newspaper icon</li>
+            </em></ul>
+        <li>Hero image</li>
+        <li>Form</li>
+            <ul><em>
+                <li>Form box</li>
+                <li>Icon</li>
+                <li>Username input</li>
+                <li>Password input</li>
+                <li>Sign-in button</li>
+                <li>Register link</li>
+            </ul></em>
+
+        <li>Promotional video with intro description</li>
+        <li>Footer</li>
+    </ul>
+    <br><br>
+
+    <h3><strong>Mod Page</strong></h3>
+        <ul>
+            <li>Search Bar</li>
+            <li>Hero-Image 2</li>
+            <li>Basket</li>
+            <li>Mods for sale</li>
+                <ul><em>
+                    <li>Add to basket icon</li>
+                    <li>Product price</li>
+                    <li>Product image</li>
+                    <li>Mod description</li>
+                    <li>Mod title</li>
+                </em></ul>
+        </ul>
+        <br><br>
+    <h3>Register Page</h3>
+        <ul>
+            <li>Register Form w Border</li>
+            <li>x3 Checkbox</li>
+            <li>Sign-In</li>
+        </ul><br><br>
+
+        <!--UPDATES-->
+
+    <h2>Planned Updates</h2>
+        <br>
+        <h3>UX Revisit</h3>
+            <ul>
+                <li>Implement javascript features when I have learned more about it</li>
+                <li>Expand on this update's plan</li>
+            </ul>
+        <h3>Content Creator Update</h3>
+        <p>Content Creator update shall implement:</p>
+        <ul>
+            <li>A checkbox under registration "Content Creator"</li>
+            <li>A seperate page dedicated for content creators [alternate index.html]<br>
+                which will include an upload button and "My mods" within a dropdown menu under "MODS" within the navbar navbar</li>
+            </ul>
+        
+        <h3>Help Page</h3>
+        <ul>
+            <li>Implement contact details, location, address</li>
+            <li>Create a wireframe for the Help Page</li>
+        </ul>
+
+        <h3>Mod Page for each game</h3>
+
+        <hr>
+
+        <h2>All wireframes</h2>
+
+        <img src="./assets/img/WF-Index.PNG" width="960" height="620">
+        <img src="./assets/img/WF-Register.PNG" width="960" height="620">
+        <img src="./assets/img/WF-Games.PNG" width="960" height="620">
+        <img src="./assets/img/WF-Mod-Store.PNG" width="960" height="620">
+</body>
+</html>
