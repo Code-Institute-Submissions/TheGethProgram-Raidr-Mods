@@ -269,6 +269,7 @@ I've index.html not too large of a page, and there is a very small amount of con
 
 ### Known Bugs
 * On register.html the form container does not fill the entire viewport (height) for mobile devices.
+* On register.html the first checkboxes does not always respond correctly to user input.
 
 
 
