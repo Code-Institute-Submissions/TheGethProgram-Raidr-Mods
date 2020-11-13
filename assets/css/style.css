@@ -167,6 +167,14 @@ body, html {
                         width: 250px;
                         font-size: 16px;
                     }
+                    .game-img .skyrim img,
+                    .game-img .skyrim-se img {
+                        width: 200px;
+                        height: 200px;
+                    }
+                    .game-img .skyrim-se {
+                        margin-left: 0;
+                    }
                 }
 
                 @media (max-width: 270px) {
