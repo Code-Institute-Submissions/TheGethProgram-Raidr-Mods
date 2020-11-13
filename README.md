@@ -143,7 +143,7 @@ by popularity. Each game will have a smaller scale when the user's cursor
 hover's over them, to make visual presentation more seemless.
 
 ### Accessibility
-
+All appropriate images and videos have been given alt tags
     
 ### Main heading
 * Linked to index.html
