@@ -1,5 +1,5 @@
 ###### Aaron Thompson
-https://thegethprogram.github.io/Raidr-Mods/index.html
+https://thegethprogram.github.io/Raidr-Mods/
 
 # Raidr Mods
 
