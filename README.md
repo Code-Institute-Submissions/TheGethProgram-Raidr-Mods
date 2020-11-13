@@ -1,4 +1,5 @@
 ###### Aaron Thompson
+https://thegethprogram.github.io/Raidr-Mods/index.html
 
 # Raidr Mods
 
@@ -265,6 +266,9 @@ I've index.html not too large of a page, and there is a very small amount of con
 * Users can input data in the register form - Form does not have functionality currently - Which will be expanded upon in the future.
 * All navlink buttons and anchor tags work correctly
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+* On register.html the form container does not fill the entire viewport (height) for mobile devices.
 
 
 
