@@ -240,15 +240,21 @@ W3C HTML
 W3C CSS
 ![AutoTestCSS](assets/img/AutoTestCSS.PNG)
 
-## User Stories
+## Testing User Stories
 * **As a user, I want to know what the site is for**
-I haven't stated exactly what the site is for, due to it being for a very specific audience. Somewhat like Nexusmods.com; Mods are downloaded from here with billions of downloads. The user will have to know already what "mods" are. I will impletement a Help page in the future, to answer questions like "What are mods" and FAQ.
+I haven't stated exactly what the site is for, due to it being for a very specific audience. Somewhat like Nexusmods.com; Mods are downloaded from here with billions of downloads. The user will have to know already what "mods" are. I will impletement a Help page in the future, to answer questions like "What are mods?" and FAQ.
 
 * **As a user, I want to know why I would pay for mods when I could just get them for free on other sites**
-On index.html, I have tried to reconsile the user with paid mods, through the use of the introduction, just above the video.
+On index.html, I have tried to reconsile the user with paid mods, through the use of the introduction, just above the video. The video will be replaced with an introductory video; Informing the user what the site is about.
+
+![screenshotOfSite](assets/img/WhoWeAre.PNG)
 
 * **As a user, I want to be able to navigate with ease**
 I've index.html not too large of a page, and there is a very small amount of content currently, which currently has ease. In future, the page will be designed with content and ease in mind.
+
+![screenshotOfSite2](assets/img/navbarScreenshot.PNG)
+
+
 
 ### Further Testing
 
