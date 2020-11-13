@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- HEAD -->
+
+
+
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
         <title>Raidr Mods</title>
         <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="assets/css/style.css" type="text/css" rel="stylesheet">
-
         
 </head>
+
+
 <body>
-
-
-
 <!-- Main Title -->
-    <section class="main-title">
-    <h1><a href="index.html">R A I D R ✯ M O D S</a></h1>
+
+    <section class="container main-title">
+        <div class="row">
+            <div class="col"> <!-- bootstrap col-sm refers to a break point -->
+    <h1><a href="index.html">RAIDR <span>✯</span> MODS</a></h1>
+            </div>
+        </div>
     </section>
 
 
-
-
 <!-- NAV BAR -->
-<div class="navbar">
+<div class="navbar justify-content-center">
     <div class="nav-content">
         <a href="index.html">Home</a>
         <a href="mods.html">Mods</a>
-        <a href="##Help">Help</a> <!-- No 'Help' page yet. Should be exempt from HTML-Error Validation -->
                 </div>
             </div>
 
@@ -35,19 +40,22 @@
 
 
         <!-- HERO IMAGE -->
-    <div class="hero-image">
-
+    <div class="hero-image"> <!-- bootstrap-->
+        
 
 
 
 
         <!-- NEWS -->
-    <div class="hero-news-container">
-        <h3 id="news-header">NEWS</h3>
-    <p id="news-paragraph">50% off <a style="color: black;" href="#mod creator's page">[insert mod creator]</a>
-        's mods when you purchase at least three early-access items. Offer available till 21/04/2021</p>
-        <!-- inline STYLE COLOR -->
-        </div>
+        <!--Note: you can't asign sizes to rows, you cant have row-4-sm-->
+    <div class="container hero-news-container"> 
+            
+                <h3 id="news-header">NEWS</h3>
+            <p id="news-paragraph">50% off <!-- may place a mod creator here-->
+            mods when you purchase at least three early-access items. Offer available till 21/04/2021</p>
+                <!-- inline STYLE COLOR -->
+          
+    </div>
     </div>
 
 
@@ -56,8 +64,8 @@
         <!-- LOGIN, SIGN UP -->
     <div class="form">
     <!-- Form -->
-    <input id="username" type="text" placeholder="Username">
-    <input id="password" type="password" placeholder="Password">
+    <input id="sign-in-username" type="text" placeholder="Username">
+    <input id="sign-in-password" type="password" placeholder="Password">
     <a href="register.html" target="_blank"><br>Register</a>
     </div>
 
@@ -77,11 +85,15 @@
 
 
         <!-- VIDEO -->
-        <div class="vid">
-            <video width="650" height="400" controls>
-                <source src="#" type="video/mp4" alt="#"> <!-- No video yet. Should be exempt from HTML-Error Validation -->
-              Video not supported
-              </video>
+    <div class="container justify-content-center">
+        
+            <div class="col-12">
+            </div>
+            <div class="vid">
+    <iframe src="https://player.vimeo.com/video/284295451" width="640" height="400"
+                allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+        
             </div>
 </body>
 
