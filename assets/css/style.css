@@ -6,7 +6,7 @@ body, html {
 
 }
 
-            /* MAIN HEADER */
+
             .main-title h1 {
                 color:rgb(255, 000, 000);
                 font-size: 400%;
@@ -14,7 +14,10 @@ body, html {
                 position: relative;
                 text-align: center;
                 margin-top: 5%;
+                font-weight: lighter;
+                letter-spacing: 10px;
                 }
+
 
                 .main-title a {
                 
@@ -27,19 +30,11 @@ body, html {
                 }
 
 
-
-
-                /* NAVIGATION */
                 .navbar{
-                    position: relative;
                     border-bottom: black;
-                    text-align: center;
                     padding: 20px;
                     
                 }
-
-
-
 
 
                 .nav-content{
@@ -51,25 +46,16 @@ body, html {
                 }
 
 
-
-
-
                 a{
                     text-decoration: none !important;
                     color: #e1121c;
                 }
 
 
-
-
-
                 .nav-content, a:hover{
                     color: silver;
                 
                 }
-
-
-
 
 
                 .hero-image{
@@ -82,26 +68,20 @@ body, html {
                 }
 
 
-
-
                 .hero-news-container{
                     margin-left: 60px;
                     color: white;
-                    width: 540px;
+                    /*width: 540px;*/
                     font-family: 'Rye', cursive;
                     font-size: large;
                     padding-top: 35px;
                 }
 
 
-
-
                 .form{
                     position: relative;
                     text-align: center;
                   }
-
-
 
 
                   .intro{
@@ -113,12 +93,86 @@ body, html {
                     padding-bottom: 4%;
                 }
 
-
-
-
                 .vid{
                     text-align: center;
                     margin-bottom: 40px;
+                }
+
+/*>>>>>>>>>>>   media queries   <<<<<<<<<<<<*/
+
+                @media (max-width: 767px) {
+                    .vid iframe {
+                        width: 540px;
+                        height: 300px;
+                    }
+                    .hero-news-container {
+                        text-align: center;
+                        width: 400px;
+                        margin: auto;
+                    }
+                    .main-title a {
+                        font-size: 50px;
+                        letter-spacing: 8px;
+                    }
+                    .nav-content {
+                        font-size: 28px;
+                    }
+                }
+
+                @media (max-width: 540px) {
+                    .vid iframe {
+                        width: 440px;
+                        height: 300px;
+                        padding: 0;
+                    }
+                    .intro {
+                        padding: 15px;
+                    }
+                    .main-title a {
+                        font-size: 48px;
+                        letter-spacing: 3px;
+                    }
+                }
+
+                @media (max-width: 460px) {
+                    .vid iframe {
+                        width: 340px;
+                        height: 200px;
+                    }
+                    .hero-news-container {
+                        width: 300px;
+                    }
+                    .main-title a {
+                        font-size: 38px;
+                        letter-spacing: 3px;
+                    }
+                    .nav-content {
+                        font-size: 22px;
+                    }
+                }
+
+                @media (max-width: 368px) {
+                    .vid iframe {
+                        width: 260px;
+                        height: 160px;
+                        padding: 0;
+                    }
+                    .main-title {
+                        width: 200px;
+                    }
+                    .main-title span {
+                        margin-left: 10px;
+                    }
+                    .hero-news-container {
+                        width: 250px;
+                        font-size: 16px;
+                    }
+                }
+
+                @media (max-width: 270px) {
+                    .vid {
+                        display: none;
+                    }
                 }
 
 
@@ -127,10 +181,12 @@ body, html {
 /*>>>>>>>>>>>   register.html   <<<<<<<<<<<<*/
 
 
-
-
                 .R-signup-container{
                    
+                    font-family: 'Rye', cursive;
+                    color: silver;
+                    font-size: large;
+
                     position: relative;
                     text-align: center;
                     background-color: #303030;
@@ -146,81 +202,64 @@ body, html {
                 }
 
 
-
-
-
                 .R-signup-container h2{
                     color: silver;
                     padding-bottom: 6%;
                     font-size: 250%;
-                    font-weight: 1000;
+                    font-weight: normal;
 
                 }
 
 
-
-
-                .R-form-input{
-                    font-family: 'Rye', cursive;
-                }
-
-                .R-form-input, label{
-                    color: silver;
-                    font-size: large;
-                }
-
-
-
-
-                .fname{
+                #fname{
                     width: 300px;
                     height:40px;
                     background-color: silver;
                 }
 
-                        .lname{
+                        #lname{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        .email{
+                        #email{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        .password{
+                        #password{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        .password2{
+                        #password2{
                             width: 300px;
                             height:40px;
                             background-color: silver;
                         }
 
-                        .checkbox-email{
+                        #checkbox-email{
                             height: 30px;
                             width: 30px;
                         }
 
-                        .checkbox-tc{
+                        #checkbox-tc{
                             height: 30px;
                             width: 30px;
                         }
 
-                        #Sign-Up{
+                        #sign-up{
                             font-family: 'Rye', cursive;
                             color: darkred;
                             width: 20%;
                             height:5%;
-                            transform: scale(20%);
+                            transform: scale(1.5);
                         }
                         
-                        .Sign-Up:hover{
+                        .sign-up:hover{
                             color: silver;
 
                         }
@@ -232,15 +271,8 @@ body, html {
                             }
 
 
-
-
-
-
-
-
-
-
 /*>>>>>>>>>>>   mods.html   <<<<<<<<<<<<*/
+
 
 .game-img {
     position: relative;
