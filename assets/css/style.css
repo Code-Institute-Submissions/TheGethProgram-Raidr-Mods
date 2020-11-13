@@ -189,95 +189,104 @@ body, html {
 /*>>>>>>>>>>>   register.html   <<<<<<<<<<<<*/
 
 
-                .R-signup-container{
+.R-signup-container{
                    
-                    font-family: 'Rye', cursive;
-                    color: silver;
-                    font-size: large;
+    font-family: 'Rye', cursive;
+    color: silver;
+    font-size: large;
 
-                    position: relative;
-                    text-align: center;
-                    background-color: #303030;
-                    border-color: #616161;
-                    border-style: solid;
+    position: relative;
+    text-align: center;
+    background-color: #303030;
+    border-color: #616161;
+    border-style: solid;
 
-                    padding-top: 60px;
+    padding-top: 60px;
 
-                    height: 1000px;
-                    width: 850px;
-                    margin: auto;
-                    border-radius: 10%;
-                }
-
-
-                .R-signup-container h2{
-                    color: silver;
-                    padding-bottom: 6%;
-                    font-size: 250%;
-                    font-weight: normal;
-
-                }
+    height: 1000px;
+    width: 850px;
+    margin: auto;
+    border-radius: 10%;
+}
 
 
-                #fname{
-                    width: 300px;
-                    height:40px;
-                    background-color: silver;
-                }
+.R-signup-container h2{
+    color: silver;
+    padding-bottom: 6%;
+    font-size: 250%;
+    font-weight: normal;
+}
 
-                        #lname{
-                            width: 300px;
-                            height:40px;
-                            background-color: silver;
-                        }
+.form-control {
+    width: 50%;
+    background-color: silver;
+    margin: 0 auto;
+}
 
-                        #email{
-                            width: 300px;
-                            height:40px;
-                            background-color: silver;
-                        }
+.form-check-input {
+    height: 25px;
+    width: 25px;
+}
 
-                        #password{
-                            width: 300px;
-                            height:40px;
-                            background-color: silver;
-                        }
+#sign-up{
+    font-family: 'Rye', cursive;
+    color: darkred;
+    width: 20%;
+    height:5%;
+    transform: scale(1.5);
+}
 
-                        #password2{
-                            width: 300px;
-                            height:40px;
-                            background-color: silver;
-                        }
+.sign-up:hover{
+    color: silver;
+}
 
-                        #checkbox-email{
-                            height: 30px;
-                            width: 30px;
-                        }
+@media (max-width: 625px) {
+    .R-signup-container{
+        height: 80%;
+        width: 90%;
+        margin: auto;
+    }
+    .R-signup-container h2{
+        font-size: 200%;
+    }
+    .form-control {
+        width: 75%;
+    }
+    #sign-up{
+        width: 40%;
+        transform: scale(1);
+    }
+}
 
-                        #checkbox-tc{
-                            height: 30px;
-                            width: 30px;
-                        }
+@media (max-width: 500px) {
+    .R-signup-container{
+        height: 75vh;
+        width: 100vw;
+        border-radius: 0;
+        margin: auto;
+    }
+    .R-signup-container h2{
+        font-size: 200%;
+    }
+    .form-control {
+        width: 90%;
+    }
+}
 
-                        #sign-up{
-                            font-family: 'Rye', cursive;
-                            color: darkred;
-                            width: 20%;
-                            height:5%;
-                            transform: scale(1.5);
-                        }
-                        
-                        .sign-up:hover{
-                            color: silver;
-
-                        }
-                        
-
-                        ::placeholder{
-                            text-align: center;
-                            text-size-adjust: 100%;
-                            }
-
+@media (max-width: 340px) {
+    .R-signup-container{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 0;
+        margin: auto;
+    }
+    .R-signup-container h2{
+        font-size: 200%;
+    }
+    .form-control {
+        width: 90%;
+    }
+}
 
 /*>>>>>>>>>>>   mods.html   <<<<<<<<<<<<*/
 
